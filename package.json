@@ -1,0 +1,29 @@
+{
+  "name": "mqtt-graphql-iot",
+  "version": "1.0.0",
+  "description": "Live IoT Data Subscription using Express Apollo Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-server",
+    "mqtt",
+    "iot"
+  ],
+  "author": "Shantanoo Desai",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.8.1",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-mqtt-subscriptions": "^1.2.0",
+    "graphql-subscriptions": "^1.1.0",
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
